@@ -1,3 +1,22 @@
+:root {
+/* цвет заголовков - color: #212121; */
+--title-color: #212121;
+/* цвет параграфов - color: #757575; */
+--text-color: #757575;
+/* акцент - color: #2196F3; */
+--accent: #2196F3;
+/* цвет текста контактных данных в футере - color: rgba(255, 255, 255, 0.6); */
+--other-text-color: rgba(255, 255, 255, 0.6);; 
+/* цвет фона - #2F303A */
+--background-color: #2F303A;
+/* вторичный цвет фона #F5F4FA */
+--other-background-color: #F5F4FA;
+}
+
+/* белый - color: #FFFFFF; */
+/* черный - color: #000000; */
+
+/* Общие */
 ul {
     list-style: none;
     }
@@ -6,20 +25,32 @@ body {
     background-color: #FFFFFF;
     color: #757575;
 }
-:root {
-/* цвет заголовков - color: #212121; */
 
-/* цвет параграфов - color: #757575; */
+/* Header */
+.logo:focus {
+    text-decoration: none;
+    color: var(--accent);
+}
 
-/* акцент - color: #2196F3; */
+.second-part-logo {
+    text-decoration: none;
+    color: #000000;
+}
 
-/* белый - color: #FFFFFF; */
+/* Герой */
+.hero {
+    background-color: var(--background-color);
+}
 
-/* черный - color: #000000; */
+.hero-title {
+    color: #FFFFFF;
+}
 
-/* цвет текста контактных данных в футере - color: rgba(255, 255, 255, 0.6); */
+.hero-button {
+    color: #FFFFFF;
+    background-color: var(--accent);
+}
 
-/* цвет фона - #2F303A */
-
-/* вторичный цвет фона #F5F4FA */
+.section-title {
+    color: var(--title-color);
 }
