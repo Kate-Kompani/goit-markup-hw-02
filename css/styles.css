@@ -16,25 +16,68 @@
 /* белый - color: #FFFFFF; */
 /* черный - color: #000000; */
 
-/* Общие */
-ul {
-    list-style: none;
-    }
+ul {list-style: none;}
 
 body {
     background-color: #FFFFFF;
     color: #757575;
+    font-family: Roboto;
+    font-style: normal;
 }
 
 /* Header */
-.logo:focus {
+.logo-web, .logo-studio {
     text-decoration: none;
-    color: var(--accent);
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
 }
 
-.second-part-logo {
+/* .logo-web:hover,
+.logo-web:focus,
+.logo-studio:hover,
+.logo-studio:focus {color: var(--accent);} */
+
+.logo-web {color: var(--accent);}
+
+.logo-studio {color: #000000;}
+
+.nav-link {
     text-decoration: none;
-    color: #000000;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+
+.nav-link:hover,
+.nav-link:focus {color: var(--accent);}
+
+.current {color: var(--accent);}
+
+.mail,
+.tel {
+    text-decoration: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+
+.mail:hover,
+.mail:focus,
+.tel:hover,
+.tel:focus {
+    color: var(--accent);
 }
 
 /* Герой */
@@ -43,14 +86,67 @@ body {
 }
 
 .hero-title {
+    text-decoration: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
     color: #FFFFFF;
 }
 
 .hero-button {
     color: #FFFFFF;
     background-color: var(--accent);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.06em;
 }
 
 .section-title {
     color: var(--title-color);
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+/* Футер */
+footer {background-color: var(--background-color);}
+
+.address-f,
+.mail-f,
+.tel-f {
+text-decoration: none;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+}
+
+.address-f {
+    color: #FFFFFF;
+}
+
+.mail-f,
+.tel-f {
+    color:rgba(255, 255, 255, 0.6)
 }
