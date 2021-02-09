@@ -20,9 +20,9 @@ ul {list-style: none;}
 
 body {
     background-color: #FFFFFF;
-    /* color: #757575;
+    /* color: #757575;*/
     font-family: Roboto;
-    font-style: normal; */
+    font-style: normal;
 }
 
 /* Header */
@@ -45,10 +45,10 @@ body {
 
 .logo-studio {color: #000000;}
 
+.logo-studio-f {color: #FFFFFF;}
+
 .nav-link {
     text-decoration: none;
-    font-family: Roboto;
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -64,8 +64,6 @@ body {
 .mail,
 .tel {
     text-decoration: none;
-    font-family: Roboto;
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -87,8 +85,6 @@ body {
 
 .hero-title {
     text-decoration: none;
-    font-family: Roboto;
-    font-style: normal;
     font-weight: 900;
     font-size: 44px;
     line-height: 60px;
@@ -101,8 +97,6 @@ body {
 .hero-button {
     color: #FFFFFF;
     background-color: var(--accent);
-    font-family: Roboto;
-    font-style: normal;
     font-weight: bold;
     font-size: 16px;
     line-height: 30px;
@@ -125,8 +119,6 @@ body {
 }
 
 .advantages {
-    font-family: Roboto;
-    font-style: normal;
     font-weight: bold;
     font-size: 14px;
     line-height: 16px;
@@ -136,8 +128,6 @@ body {
 }
 
 .advantages-description {
-    font-family: Roboto;
-    font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
@@ -147,8 +137,6 @@ body {
 /* секции Чем мы занимаемся и Команда */
 .section-case-title,
 .section-team-title {
-    font-family: Roboto;
-    font-style: normal;
     font-weight: bold;
     font-size: 36px;
     line-height: 42px;
@@ -160,8 +148,6 @@ body {
 .section-team {background: var(--other-background-color);}
 
 .personal-name {
-    font-family: Roboto;
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
@@ -170,8 +156,6 @@ body {
 }
 
 .post {
-    font-family: Roboto;
-    font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 19px;
@@ -185,13 +169,13 @@ footer {background-color: var(--background-color);}
 .address-f,
 .mail-f,
 .tel-f {
-text-decoration: none;
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 24px;
-letter-spacing: 0.03em;
+    text-decoration: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
 }
 
 .address-f {
@@ -206,8 +190,6 @@ letter-spacing: 0.03em;
 /* Портфолио */
 .portfolio-btn {
     background: var(--other-background-color);
-    font-family: Roboto;
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
@@ -223,11 +205,16 @@ letter-spacing: 0.03em;
 }
 
 .portfolio-title {
-    font-family: Roboto;
-    font-style: normal;
     font-weight: bold;
     font-size: 18px;
     line-height: 36px;
     letter-spacing: 0.06em;
     color: var(--title-color);
+}
+.portfolio-description {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
 }
