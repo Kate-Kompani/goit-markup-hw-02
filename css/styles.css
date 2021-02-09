@@ -20,9 +20,9 @@ ul {list-style: none;}
 
 body {
     background-color: #FFFFFF;
-    color: #757575;
+    /* color: #757575;
     font-family: Roboto;
-    font-style: normal;
+    font-style: normal; */
 }
 
 /* Header */
@@ -110,10 +110,7 @@ body {
     letter-spacing: 0.06em;
 }
 
-.section-title {
-    color: var(--title-color);
-}
-
+/* Преимущества */
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -125,6 +122,61 @@ body {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
+}
+
+.advantages {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--title-color);
+}
+
+.advantages-description {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+}
+/* секции Чем мы занимаемся и Команда */
+.section-case-title,
+.section-team-title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-color);
+}
+
+.section-team {background: var(--other-background-color);}
+
+.personal-name {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: var(--title-color);
+}
+
+.post {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
 }
 
 /* Футер */
@@ -149,4 +201,33 @@ letter-spacing: 0.03em;
 .mail-f,
 .tel-f {
     color:rgba(255, 255, 255, 0.6)
+}
+
+/* Портфолио */
+.portfolio-btn {
+    background: var(--other-background-color);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-color);
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+    background: var(--accent);
+    color:#FFFFFF;
+}
+
+.portfolio-title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    color: var(--title-color);
 }
